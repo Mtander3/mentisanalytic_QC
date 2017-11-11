@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html style= background-color:#eee>
+<head>
+    <link rel="stylesheet" href="style2.css" type="text/css" />
+<br><br>
+    <div id="nav">
+        <ul>
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('static', filename='health_facilities_map.html') }}">Maps</a></li>
+            <li><a href="{{ url_for('static', filename ='contact.html') }}">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li> &emsp;
+        </ul>
+
+    </div>
+</head>
+
+
+<style>
+    .container {
+        position: relative;
+    }
+
+    .center {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    img {
+        width: 60%;
+        height: auto;
+        opacity: 0.5;
+    }
+</style>
+
+
+<img src="image.jpg" width="500" height="150" alt="Klematis">
+<br><br>
+<style>
+    .center {
+        text-align: center;
+        border: 3px solid darkorange;
+        width: 250px;
+        padding: 20px;
+        margin-right: 1500px;
+        margin-left: 1000px;
+    }
+</style>
+
+
+<div style="color:Black;" class="center"  class="outset"><br>Freddy Cabrera<br>
+
+    <br> Matthew Anderson<br>
+    <br>Grayson Absher<br>
+    <br>Sara El Mawas</div>
+
+</body>
+</html>
+
+

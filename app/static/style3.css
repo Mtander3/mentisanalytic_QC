@@ -1,0 +1,26 @@
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover,
+a:active{ text-decoration: underline; }
+
+#page{ margin: 20px; }
+
+
+#nav{
+    width: 60%;
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
+#nav ul{}
+#nav ul li{
+    display: inline-block;
+    height: 62px;
+}
+#nav ul li a{
+    padding: 20px;
+    background: orange;
+    color: white;
